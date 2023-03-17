@@ -4,14 +4,39 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jari's Recipes</title>
+	<link rel="stylesheet" href="recipe-book.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
+
 <body>
-<h1>Jari's College Recipes</h1>
-<p>Select one of the foods below to make!</p>
-<ul>
-	<li><a href ="recipes/hamcroquettes.html">click here to learn how to make ham croquettes</a></li>
-	<li><a href ="recipes/tiramisu.html">click here to learn how to make tiramisu</a></li>
-	<li><a href ="recipes/vegan-cookies.html">click here to learn how to make vegan cookies</a></li>
-</ul>
+
+<h1 class="header">Jari's College Recipes</h1>
+<p id="welcome">Welcome to Jari's College Recipes check out the recipes below!</p>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Recipes |</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="navlink" href ="recipes/hamcroquettes.html" role="button">ham croquettes</a>
+        </li>
+        <li class="nav-item">
+          <a class="navlink" href ="recipes/tiramisu.html">tiramisu</a>
+        </li>
+        <li class="nav-item">
+          <a class="navlink" href ="recipes/vegan-cookies.html">vegan cookies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<img id="gif" src="https://media.tenor.com/hHqCcqfw7U4AAAAM/marcie-peanuts.gif"style="width: 45%; height: auto;"> 
+
 </body>
 </html>
